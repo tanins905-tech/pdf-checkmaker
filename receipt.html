@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { font-family: DejaVu Sans, Arial, sans-serif; width: 320px; }
+    h1 { text-align: center; font-size: 18px; margin-bottom: 10px; }
+    .row { display: flex; justify-content: space-between; margin: 6px 0; }
+    .line { border-top: 1px solid #000; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<h1>ЧЕК</h1>
+
+<div class="row">
+  <span>Товар</span>
+  <span>{{ product }}</span>
+</div>
+
+<div class="row">
+  <span>Цена</span>
+  <span>{{ price }}</span>
+</div>
+
+<div class="row">
+  <span>Количество</span>
+  <span>{{ qty }}</span>
+</div>
+
+<div class="line"></div>
+
+<p>Сформировано автоматически</p>
+
+</body>
+</html
